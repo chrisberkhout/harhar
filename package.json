@@ -2,7 +2,7 @@
   "name": "harhar",
   "version": "0.0.1",
   "description": "A tool for working with HAR files",
-  "main": "index.js",
+  "bin": { "harhar": "./bin/harhar.js" },
   "scripts": {
     "test": "mocha"
   },
